@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<body>	
+	<fieldset id="city_c">
+		<legend>自定义选项</legend>
+		<p>一：<select class="first" disabled="disabled"></select></p>
+		<p>二：<select class="second" disabled="disabled"></select></p>
+		<p>三：<select class="third" disabled="disabled"></select></p>
+		<p>四：<select class="fourth" disabled="disabled"></select></p>
+		<p>五：<select class="fifth" disabled="disabled"></select></p>
+	</fieldset>
+
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="js/jquery.cxselect.min.js"></script>
+<script>
+$("#city_c").cxSelect({
+	selects : ["first", "second", "third", "fourth", "fifth"],
+	required : true,
+	url : [
+		{"n" : "", "s" : [
+			{"n" : "", "s" : [
+				{"n" : "", "s" : [
+					{"n" : "", "s" : [
+						{"n" : "", "s" : [
+							{"n" : "", "s" : [
+								{"n" : "", "s" : [
+									{"n" : "", "s" : [
+										{"n" : "", "s" : [
+											{"n" : "", "s" : [
+												{"n" : ""}
+											]}
+										]}
+									]}
+								]}
+							]}
+						]}
+					]}
+				]}
+			]}
+		]},
+		{"n" : "专业书籍", "s" : [
+			{"n" : "电信学院", "s" : [
+				{"n" : "自动化", "s" : [
+					{"n" : "大一"},
+					{"n" : "大二"},
+					{"n" : "大三"},
+					{"n" : "大四"}
+				]},
+				{"n" : "计算机", "s" : [
+					{"n" : "大一"},
+					{"n" : "大二"},
+					{"n" : "大三"},
+					{"n" : "大四"}
+				]}
+			]},
+			{"n" : "电气学院", "s" : [
+				{"n" : "电气自动化", "s" : [
+					{"n" : "大一"},
+					{"n" : "大二"},
+					{"n" : "大三"},
+					{"n" : "大四"}
+				]},
+				{"n" : "电测控", "s" : [
+					{"n" : "大一"},
+					{"n" : "大二"},
+					{"n" : "大三"},
+					{"n" : "大四"}
+				]}
+			]},
+			{"n" : "人文学院", "s" : [
+				{"n" : "汉语言文学", "s" : [
+					{"n" : "大一"},
+					{"n" : "大二"},
+					{"n" : "大三"},
+					{"n" : "大四"}
+				]},
+				{"n" : "新闻传媒", "s" : [
+					{"n" : "大一"},
+					{"n" : "大二"},
+					{"n" : "大三"},
+					{"n" : "大四"}
+				]}
+			]},			
+		]},
+		{"n" : "公共课", "s" : [
+			{"n" : "英语", "s" : [
+					{"n" : "大一"},
+					{"n" : "大二"},
+					{"n" : "大三"},
+					{"n" : "大四"}
+			]},
+			{"n" : "数学","s" : [
+					{"n" : "大一"},
+					{"n" : "大二"},
+					{"n" : "大三"},
+					{"n" : "大四"}
+			]},
+			{"n" : "政治","s" : [
+					{"n" : "大一"},
+					{"n" : "大二"},
+					{"n" : "大三"},
+					{"n" : "大四"}
+			]},			
+		]},
+		{"n" : "外语资料", "s" : [
+			{"n" : "英语"},
+			{"n" : "日语"},
+			{"n" : "德语"},
+		]},		
+	]
+});
+</script>
+</body>
+</html>
