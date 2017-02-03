@@ -6,7 +6,7 @@ $mail->IsSMTP(); // 使用SMTP方式发送
 $mail->Host = "smtp.163.com"; // 您的企业邮局域名
 $mail->SMTPAuth = true; // 启用SMTP验证功能
 $mail->Username = "huaxiazhicaiwang@163.com"; // 邮局用户名(请填写完整的email地址)
-$mail->Password = "hxzcw123456"; // 邮局密码
+$mail->Password = "123456"; // 邮局密码
 $mail->Port=25;
 $mail->From = "huaxiazhicaiwang@163.com"; //邮件发送者email地址
 $mail->FromName = "baw";
